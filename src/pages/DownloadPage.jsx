@@ -35,7 +35,7 @@ export default function DownloadPage() {
 
         <div className="mt-8 flex flex-wrap gap-3">
           <a
-            href="https://github.com/YOUR_USERNAME/YOUR_REPO/releases/download/v1.0/win-unpacked.zip"
+            href="https://github.com/DhruvSangwan/hybrid-ocr-app/releases/download/v1.0.0/Hybrid-OCR-Setup-1.0.0.exe"
             className="inline-flex rounded-full bg-[#24322c] px-5 py-3 text-sm font-semibold text-[#edf0ea] transition hover:-translate-y-0.5 dark:bg-[#edf0e7] dark:text-[#24322c]"
           >
             Download Desktop App
