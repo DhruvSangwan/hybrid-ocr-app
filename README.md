@@ -45,9 +45,8 @@ Frontend (React)
 ## 📦 Desktop App Installation
 
 1. Download the desktop app from Releases
-2. Extract the ZIP file completely
-3. Open the folder
-4. Run `Hybrid OCR Desktop.exe`
+2. Extract the ZIP file or run the installer
+3. Launch `Hybrid OCR Desktop.exe`
 
 ---
 
@@ -63,11 +62,27 @@ Frontend (React)
 
 ---
 
+## 🔍 OCR Engine Details
+
+The desktop processing pipeline uses **OCRmyPDF**, a Python-based OCR tool built on top of the Tesseract OCR engine and Ghostscript.
+
+In this project, OCRmyPDF is used to:
+
+* Add a searchable text layer to scanned PDFs
+* Preserve original layout and formatting
+* Optimize and reconstruct PDFs after OCR
+* Handle large, multi-page documents efficiently
+
+Learn more: https://github.com/ocrmypdf/OCRmyPDF
+
+---
+
 ## ⚠️ Notes
 
 * Browser OCR is fast but may have lower accuracy and poor layout retention
 * Desktop OCR uses a full document processing pipeline for significantly better results
-* All processing is done locally — no file is uploaded to external servers
+* All processing is done locally — no files are uploaded to external servers
+* The desktop pipeline leverages multi-stage processing including preprocessing, recognition, and PDF reconstruction
 
 ---
 
